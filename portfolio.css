@@ -1,0 +1,148 @@
+/*******************************
+	Header/Navbar
+*******************************/
+
+
+#header {
+	height: 45%;
+	width: 100%;
+	background-color: #E3E4E4;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#navbar {
+	
+	
+
+	text-align: center;
+	margin-top: -30px;
+
+
+}
+
+#navbar ul {
+display: inline-block;
+
+}
+
+
+#navbar li {
+	
+	margin-top: -10px;
+	list-style-type: none;
+	padding-right: 100px;
+	padding-top: 40px;
+	font-family: arial;
+	float:left;
+	color: white;
+
+}
+
+#container {
+	text-align: center;
+	font-family: arial;
+	width: 100%;
+	
+}
+
+#footer {
+	margin: 0 auto;
+	height: 10%;
+	width: 100%;
+	background-color: #FF5959;
+	margin-top: 50px;
+	
+}
+
+#aboutMe {
+	width: 100%;
+	text-align: center;
+}
+
+#farmingdale {
+	
+	width:100%;
+	height: 306px;
+	background-image: url("farmingdale.jpg");
+	background-size: 100%;
+	text-align: center;
+
+
+}
+
+#me {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+#majorinfo {
+	opacity: .8;
+	
+	height: 300px;
+	width:50%;
+	border-style: solid;
+	border-color: black;
+	background-color:black;
+	margin: 0 auto;
+	
+
+}
+
+#graduation {
+	font-style: italic;
+}
+
+#skills {
+	height:300px;
+	width:100%;
+	background-color: yellow;
+}
+
+#projects {
+	height:300px;
+	width:100%;
+	background-color: teal;
+}
+
+#contact {
+	height:300px;
+	width:100%;
+	background-color: green;
+}
+
+.fontWhite {
+	color:white;
+}
+
+
+
+a {
+	text-decoration: none;
+
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color:#4C3D1F;
+}
+
+/* mouse over link */
+a:hover {
+    opacity: .5;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+
+

@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="portfolio.css"/>
+		<title>Nick Johnson - Portfolio</title>
+
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+</script>
+
+
+<script>
+/*
+$(document).ready(function() {
+
+	$("#skills").hide();
+	$("#projects").hide();
+	$("#contact").hide();
+ $("a[name='aboutMe']").click(function() {
+ 	$("#skills").hide();
+ 	$("#projects").hide();
+ 	$("#contact").hide();
+
+ $("#aboutMe").slideToggle(1000); 
+ });
+
+ 	$("a[name='skills']").click(function() {
+ 		$("#aboutMe").hide();
+ 		$("#projects").hide();
+ 		$("#contact").hide();
+ 		$("#skills").slideToggle(1000);
+ 	});
+
+ 	$("a[name='projects']").click(function() {
+ 		$("#aboutMe").hide();
+ 		$("#skills").hide();
+ 		$("#contact").hide();
+ 		$("#projects").slideToggle(1000);
+ 	});
+
+ 	$("a[name='contact']").click(function() {
+ 		$("#aboutMe").hide();
+ 		$("#projects").hide();
+ 		$("#skills").hide();
+ 		$("#contact").slideToggle(1000);
+ 	});
+});
+*/
+
+
+
+</script>
+
+<script>
+ $(document).ready(function () {
+    $(".click_me").on('click', function () {
+        var $faq = $(this).next(".hide_div");
+        $faq.slideToggle();
+        $(".hide_div").not($faq).slideUp();
+    });
+});
+</script>
+
+	</head>
+	<body>
+			<div id="header">
+				<p>Nick Johnson</p>
+				<img src="avatar.jpg">
+				<p>Front-End Web Developer</p>
+				<div id="navbar">			
+						<ul>
+       						 <li><a href="#" name="aboutMe" class="click_me">About Me</a></li>
+      						 <li><a href="#" name="skills" class="click_me">Skills</a></li>
+      						 <li><a href="#" name="projects" class="click_me">Projects</a></li>
+      						 <li><a href="#" name="contact" class="click_me">Contact</a></li>
+    				    </ul>
+				</div>
+			</div>	
+			
+			
+
+			<div id="container">
+				<div id="aboutMe">
+				<p>My name is Nick Johnson and I am located in Long Island, New York. I am 21 and an aspiring front-end web developer<br> currently pursuing a bacherlors degree in computer programming and information systems at Farmingdale State College.<br>I began learning to develope websites in high school where I took a web design course. After graduating I decided to<br> pick it up again and try to make it into a career.</p>
+				<p>Some of my interests include sports, hanging out with friends and playing video games.<br>I am a huge New York Knicks fan even though they are not doing to good. A few of my favorite video games are
+					<ul>
+						<li>Diablo 2</li>
+						<li>Socom 2</li>
+						<li>Halo 3</li>
+					</ul>
+				I am set to graduate in the fall of 2015 where i hope to find a full time job.
+				</p>
+				</div>
+				<div class="hide_me" id="skills">
+				<p>hey</p>
+				</div>
+				<div class="hide_me" id="projects">
+				<p>hey</p>
+				</div>
+				<div class="hide_me" id="contact">
+				<p>hey</p>
+				</div>
+			</div>
+
+			<div id="footer">
+			</div>
+
+
+	</body>
+</html>
+	
