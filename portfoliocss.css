@@ -64,11 +64,11 @@ display: inline-block;
 #farmingdale {
 	
 	width:100%;
-	height: 306px;
+	
 	background-image: url("farmingdale.jpg");
 	background-size: 100%;
 	text-align: center;
-
+	overflow: hidden;
 
 }
 
@@ -81,17 +81,16 @@ display: inline-block;
 #majorinfo {
 	opacity: .8;
 	
-	height: 300px;
+	
 	width:50%;
 	border-style: solid;
 	border-color: black;
 	background-color:black;
 	margin: 0 auto;
-	
 
 }
 
-#graduation {
+#graduationFont {
 	font-style: italic;
 }
 
