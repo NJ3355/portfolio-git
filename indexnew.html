@@ -10,12 +10,20 @@
 
 
 <script>
-$(document).ready(function () {
-    $('.hide_div').hide();
-    $('.hide_div').fadeIn(2000);
 
-
+$(document).ready( function() {
+    $("#skillinfo").hide(); //hide your div initially
+    var topOfOthDiv = $("#skillinfo").offset().top;
+    $(window).scroll(function() {
+        if($(window).scrollTop() > topOfOthDiv) { //scrolled past the other div?
+              $( "#skillinfo" ).fadeIn( 5000, function() {
+    // Animation complete
+  }); //reached the desired point -- show div
+        }
+    });
 });
+
+
 
 
 
