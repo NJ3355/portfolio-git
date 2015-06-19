@@ -1,36 +1,43 @@
 /*******************************
 	Header/Navbar
 *******************************/
-
+body {
+	background-color: D3E7F0;
+}
 
 #header {
 	height: 45%;
 	width: 100%;
-	background-color: #E3E4E4;
+	background-image: url("headerimg.jpg");
+	background-size: 100% 100%;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+
 }
 
 #navbar {
 	
 	
-
+	background-color: white;
 	text-align: center;
-	margin-top: -30px;
+	margin: auto;
+	width:50%;
 
 
 }
 
 #navbar ul {
+	color: white;
 display: inline-block;
+
 
 }
 
 
 #navbar li {
 	
-	margin-top: -10px;
+	margin-top: -30px;
 	list-style-type: none;
 	padding-right: 100px;
 	padding-top: 40px;
@@ -51,7 +58,7 @@ display: inline-block;
 	margin: 0 auto;
 	height: 10%;
 	width: 100%;
-	background-color: #FF5959;
+	background-color: black ;
 	margin-top: 50px;
 	
 }
@@ -59,12 +66,13 @@ display: inline-block;
 #aboutMe {
 	width: 100%;
 	text-align: center;
+	padding-bottom: 15px;
 }
 
 #farmingdale {
 	
-	width:100%;
-	
+	width:90%;
+	margin: auto;
 	background-image: url("farmingdale.jpg");
 	background-size: 100%;
 	text-align: center;
@@ -95,21 +103,38 @@ display: inline-block;
 }
 
 #skills {
-	height:300px;
+	
 	width:100%;
-	background-color: yellow;
+	background-color: 1BB7FA;
+	overflow: hidden;
+}
+
+#mainskills img {
+	width: 350px;
+	height: 200px;
+}
+
+#familiarskills img {
+	width: 200px;
+	height: 200px;
+	padding-left: 10px;
+}
+
+#skillinfo {
+	width: 50%;
+	margin: auto;
 }
 
 #projects {
 	height:300px;
 	width:100%;
-	background-color: teal;
+	
 }
 
 #contact {
 	height:300px;
 	width:100%;
-	background-color: green;
+	background-color: 1BB7FA;
 }
 
 .fontWhite {
