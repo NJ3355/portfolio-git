@@ -106,7 +106,7 @@ display: inline-block;
 }
 
 #skills {
-	height: 675px;
+	
 	width:100%;
 	background-color: 1BB7FA;
 	overflow: hidden;
@@ -118,8 +118,8 @@ display: inline-block;
 }
 
 #familiarskills img {
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	padding-left: 10px;
 }
 
@@ -135,19 +135,33 @@ display: inline-block;
 	
 }
 
+#projectContainer {
+	width:68%;
+	overflow: hidden;
+	margin: auto;
+}
+
 #landscape {
 	width:300px;
 	height:300px;
-	float:right;
-	margin-right: 275px;
+	float:left;
+	
 }
 
 #blackjack {
 	width:300px;
 	height:300px;
 	float: left;
-	margin-left: 275px;
+	
 }
+
+#phpProject {
+	width:300px;
+	height:300px;
+	float: left;
+	
+}
+
 
 .projectImages {
 	width:200px;
@@ -167,9 +181,10 @@ display: inline-block;
 }
 
 #github {
-	position:absolute; 
+	
 	bottom:0;
-	left: 33%;
+	display: inline-block;
+	
 }
 
 
