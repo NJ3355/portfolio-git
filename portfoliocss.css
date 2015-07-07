@@ -139,6 +139,10 @@ display: inline-block;
 	
 }
 
+#projects a {
+	text-decoration: underline;
+}
+
 #projectContainer {
 	width:68%;
 	overflow: hidden;
@@ -175,7 +179,7 @@ display: inline-block;
 }
 
 #contact {
-	height:415px;
+	height:450px;
 	width:100%;
 	background-color: 1BB7FA;
 	overflow: hidden;
@@ -198,6 +202,19 @@ display: inline-block;
 
 }
 
+#resume {
+	
+	width:50%;
+	margin: auto;
+	border-style: solid;
+	border-radius: 5px;
+	
+}
+
+#resume img {
+	width:50px;
+}
+
 .fontWhite {
 	color:white;
 }
@@ -208,10 +225,18 @@ display: inline-block;
 	display: inline-block;
 	
 }
-#footer {
+#toTop {
+	margin: auto;
+	text-align: center;
 	color: white;
+	text-decoration: underline;
+
 }
 
+#footer p {
+	color: white;
+	text-align: center;
+}
 
 a {
 	text-decoration: none;
